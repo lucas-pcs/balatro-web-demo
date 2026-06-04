@@ -1,0 +1,14 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+*.tsbuildinfo
+
+# vendored third-party Excalidraw skill (dev-only; diagrams are pre-rendered to public/diagrams)
+tools/excalidraw-diagram/
+**/__pycache__/
+
+# logs & os
+*.log
+.DS_Store

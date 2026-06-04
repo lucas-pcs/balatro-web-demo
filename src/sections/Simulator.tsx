@@ -56,7 +56,7 @@ export function Simulator() {
   const [held, setHeld] = useState<PlayingCard[]>(PRESETS[0].heldCards)
   const [jokers, setJokers] = useState<JokerInstance[]>(PRESETS[0].jokers)
   const [showSteps, setShowSteps] = useState(false)
-  const [libOpen, setLibOpen] = useState(false)
+  const [libOpen, setLibOpen] = useState(true)
 
   const result = useMemo(
     () => scoreHand({ handKey, handLevel, playedCards: played, heldCards: held, jokers }),
@@ -145,23 +145,10 @@ export function Simulator() {
       </div>
 
       <div className="panel">
-        <h3>Jokers <span className="muted">(drag to reorder · scored left → right)</span></h3>
-        <DndContext sensors={sensors} collisionDetection={closestCenter} onDragEnd={onDragEnd}>
-          <SortableContext items={jokers.map((j) => j.uid)} strategy={horizontalListSortingStrategy}>
-            <div className="joker-board">
-              {jokers.map((j) => (
-                <SortableJoker key={j.uid} inst={j}
-                  onEdition={(ed) => setJokers((js) => js.map((x) => x.uid === j.uid ? { ...x, edition: ed } : x))}
-                  onParam={(v) => setJokers((js) => js.map((x) => x.uid === j.uid ? { ...x, param: v } : x))}
-                  onRemove={() => setJokers((js) => js.filter((x) => x.uid !== j.uid))} />
-              ))}
-              {jokers.length === 0 && <p className="muted">No jokers — pick from the library below.</p>}
-            </div>
-          </SortableContext>
-        </DndContext>
-        <button className="btn" style={{ marginTop: 10 }} onClick={() => setLibOpen((o) => !o)}>
-          {libOpen ? '▾ Hide joker library' : '＋ Add jokers (browse all 50)'}
-        </button>
+        <div className="row" style={{ justifyContent: 'space-between', alignItems: 'baseline' }}>
+          <h3 style={{ margin: 0 }}>Joker library <span className="muted">— tap a card to add</span></h3>
+          <button className="link" onClick={() => setLibOpen((o) => !o)}>{libOpen ? 'Collapse' : 'Expand'}</button>
+        </div>
         {libOpen && (
           <div className="joker-library">
             {ROLE_GROUPS.map(({ role, label }) => {
@@ -183,6 +170,21 @@ export function Simulator() {
             })}
           </div>
         )}
+
+        <h3 style={{ marginTop: 16 }}>Your board <span className="muted">(drag to reorder · scored left → right)</span></h3>
+        <DndContext sensors={sensors} collisionDetection={closestCenter} onDragEnd={onDragEnd}>
+          <SortableContext items={jokers.map((j) => j.uid)} strategy={horizontalListSortingStrategy}>
+            <div className="joker-board">
+              {jokers.map((j) => (
+                <SortableJoker key={j.uid} inst={j}
+                  onEdition={(ed) => setJokers((js) => js.map((x) => x.uid === j.uid ? { ...x, edition: ed } : x))}
+                  onParam={(v) => setJokers((js) => js.map((x) => x.uid === j.uid ? { ...x, param: v } : x))}
+                  onRemove={() => setJokers((js) => js.filter((x) => x.uid !== j.uid))} />
+              ))}
+              {jokers.length === 0 && <p className="muted">No jokers yet — tap cards in the library above to add.</p>}
+            </div>
+          </SortableContext>
+        </DndContext>
       </div>
 
       <CardEditor title="Played cards (the scored hand)" cards={played} setCards={setPlayed} />

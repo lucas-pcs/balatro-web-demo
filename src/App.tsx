@@ -9,8 +9,8 @@ import { Diagrams } from './sections/Diagrams'
 type TabId = 'overview' | 'simulator' | 'builds' | 'charts' | 'route' | 'diagrams'
 
 const TABS: { id: TabId; label: string; icon: string }[] = [
-  { id: 'overview', label: 'Scoring', icon: '🎯' },
   { id: 'simulator', label: 'Simulator', icon: '🧮' },
+  { id: 'overview', label: 'Scoring', icon: '🎯' },
   { id: 'builds', label: 'Tier List', icon: '🏆' },
   { id: 'charts', label: 'Charts', icon: '📈' },
   { id: 'route', label: 'Ante Route', icon: '🗺️' },
@@ -18,7 +18,7 @@ const TABS: { id: TabId; label: string; icon: string }[] = [
 ]
 
 export default function App() {
-  const [tab, setTab] = useState<TabId>('overview')
+  const [tab, setTab] = useState<TabId>('simulator')
 
   return (
     <div className="app">

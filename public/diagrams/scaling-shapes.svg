@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1270" height="632" viewBox="20 -24 1270 632">
+<rect x="20" y="-24" width="1270" height="632" fill="#ffffff"/>
+<polyline points="130.0,120.0 130.0,440.0" fill="none" stroke="#94a3b8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="130.0,440.0 1180.0,440.0" fill="none" stroke="#94a3b8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="130.0,430.0 600.0,360.0 890.0,250.0 1130.0,130.0" fill="none" stroke="#6d28d9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8 6"/>
+<polyline points="130.0,420.0 430.0,398.0 730.0,378.0 1030.0,358.0 1140.0,340.0" fill="none" stroke="#047857" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="130.0,425.0 460.0,397.0 750.0,315.0 990.0,215.0 1150.0,145.0" fill="none" stroke="#009dff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="130.0,432.0 650.0,412.0 910.0,302.0 1070.0,182.0 1130.0,120.0" fill="none" stroke="#dc2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text font-family="ui-sans-serif, Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="26" fill="#1e40af" text-anchor="start" font-weight="600"><tspan x="80.0" y="57.3">Why only ×Mult / retrigger keep pace with the ante curve</tspan></text>
+<text font-family="ui-sans-serif, Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#64748b" text-anchor="start" font-weight="500"><tspan x="96.0" y="107.5">score  (log scale) ↑</tspan></text>
+<text font-family="ui-sans-serif, Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#64748b" text-anchor="start" font-weight="500"><tspan x="1010.0" y="463.5">rounds / antes →</tspan></text>
+<text font-family="ui-sans-serif, Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#047857" text-anchor="start" font-weight="500"><tspan x="1010.0" y="341.5">Additive +Mult — linear</tspan></text>
+<text font-family="ui-sans-serif, Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#009dff" text-anchor="start" font-weight="500"><tspan x="980.0" y="145.5">×Mult — exponential</tspan></text>
+<text font-family="ui-sans-serif, Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#dc2626" text-anchor="start" font-weight="500"><tspan x="870.0" y="107.5">Retrigger — super-exponential</tspan></text>
+<text font-family="ui-sans-serif, Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#6d28d9" text-anchor="start" font-weight="500"><tspan x="520.0" y="311.5">Ante requirement (the wall)</tspan></text>
+<text font-family="ui-sans-serif, Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#374151" text-anchor="start" font-weight="500"><tspan x="130.0" y="512.3">On a log axis, additive growth bends flat while ×Mult and retrigger stay straight, climbing lines. Past Ante ~5</tspan><tspan x="130.0" y="533.3">the requirement outpaces every additive build — so the endgame is always a multiplicative / retrigger engine.</tspan></text>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="586" viewBox="20 -28 1260 586">
+<rect x="20" y="-28" width="1260" height="586" fill="#ffffff"/>
+<rect x="130" y="130" width="90" height="54" rx="12" ry="12" fill="#ede9fe" stroke="#6d28d9" stroke-width="2"/>
+<rect x="250" y="130" width="90" height="54" rx="12" ry="12" fill="#ede9fe" stroke="#6d28d9" stroke-width="2"/>
+<rect x="370" y="130" width="90" height="54" rx="12" ry="12" fill="#ede9fe" stroke="#6d28d9" stroke-width="2"/>
+<rect x="490" y="130" width="90" height="54" rx="12" ry="12" fill="#ede9fe" stroke="#6d28d9" stroke-width="2"/>
+<rect x="610" y="130" width="90" height="54" rx="12" ry="12" fill="#ede9fe" stroke="#6d28d9" stroke-width="2"/>
+<polyline points="175.0,184.0 415.0,300.0" fill="none" stroke="#6d28d9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><polygon points="415.0,300.0 404.0,300.0 408.2,291.4" fill="#6d28d9"/>
+<polyline points="295.0,184.0 415.0,300.0" fill="none" stroke="#6d28d9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><polygon points="415.0,300.0 404.5,296.6 411.2,289.7" fill="#6d28d9"/>
+<polyline points="415.0,184.0 415.0,300.0" fill="none" stroke="#6d28d9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><polygon points="415.0,300.0 410.2,290.1 419.8,290.1" fill="#6d28d9"/>
+<polyline points="535.0,184.0 415.0,300.0" fill="none" stroke="#6d28d9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><polygon points="415.0,300.0 418.8,289.7 425.5,296.6" fill="#6d28d9"/>
+<polyline points="655.0,184.0 415.0,300.0" fill="none" stroke="#6d28d9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><polygon points="415.0,300.0 421.8,291.4 426.0,300.0" fill="#6d28d9"/>
+<rect x="315" y="300" width="200" height="80" rx="12" ry="12" fill="#ddd6fe" stroke="#6d28d9" stroke-width="3"/>
+<rect x="560" y="300" width="190" height="80" rx="12" ry="12" fill="#fef3c7" stroke="#b45309" stroke-width="2"/>
+<rect x="795" y="300" width="180" height="80" rx="12" ry="12" fill="#a7f3d0" stroke="#047857" stroke-width="2"/>
+<ellipse cx="1115.0" cy="340.0" rx="105.0" ry="42.0" fill="#fecaca" stroke="#b91c1c" stroke-width="3"/>
+<polyline points="519.0,340.0 556.0,340.0" fill="none" stroke="#64748b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><polygon points="556.0,340.0 546.1,344.8 546.1,335.2" fill="#64748b"/>
+<polyline points="754.0,340.0 791.0,340.0" fill="none" stroke="#64748b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><polygon points="791.0,340.0 781.1,344.8 781.1,335.2" fill="#64748b"/>
+<polyline points="979.0,340.0 1006.0,340.0" fill="none" stroke="#64748b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><polygon points="1006.0,340.0 996.1,344.8 996.1,335.2" fill="#64748b"/>
+<text font-family="ui-sans-serif, Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="26" fill="#1e40af" text-anchor="start" font-weight="600"><tspan x="80.0" y="53.3">Triboulet + Sock &amp; Buskin — exponential in faces played</tspan></text>
+<text font-family="ui-sans-serif, Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#64748b" text-anchor="start" font-weight="500"><tspan x="130.0" y="108.3">Play 5 Kings / Queens</tspan></text>
+<text font-family="ui-sans-serif, Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="18" fill="#5b21b6" text-anchor="middle" font-weight="500"><tspan x="175.0" y="160.5">K♠</tspan></text>
+<text font-family="ui-sans-serif, Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="18" fill="#5b21b6" text-anchor="middle" font-weight="500"><tspan x="295.0" y="160.5">Q♥</tspan></text>
+<text font-family="ui-sans-serif, Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="18" fill="#5b21b6" text-anchor="middle" font-weight="500"><tspan x="415.0" y="160.5">K♣</tspan></text>
+<text font-family="ui-sans-serif, Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="18" fill="#5b21b6" text-anchor="middle" font-weight="500"><tspan x="535.0" y="160.5">Q♦</tspan></text>
+<text font-family="ui-sans-serif, Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="18" fill="#5b21b6" text-anchor="middle" font-weight="500"><tspan x="655.0" y="160.5">K♠</tspan></text>
+<text font-family="ui-sans-serif, Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#5b21b6" text-anchor="middle" font-weight="500"><tspan x="415.0" y="334.0">Triboulet</tspan><tspan x="415.0" y="351.5">×2 per K/Q scored</tspan></text>
+<text font-family="ui-sans-serif, Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#78350f" text-anchor="middle" font-weight="500"><tspan x="655.0" y="334.4">Sock &amp; Buskin</tspan><tspan x="655.0" y="350.7">retrigger faces → ×4 each</tspan></text>
+<text font-family="ui-sans-serif, Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#065f46" text-anchor="middle" font-weight="500"><tspan x="885.0" y="334.4">Blueprint + Brainstorm</tspan><tspan x="885.0" y="350.7">→ ×3 Triboulet</tspan></text>
+<text font-family="ui-sans-serif, Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#7f1d1d" text-anchor="middle" font-weight="500"><tspan x="1115.0" y="334.0">×4⁵ = ×1024</tspan><tspan x="1115.0" y="351.5">per Triboulet → ×10⁹</tspan></text>
+<text font-family="ui-sans-serif, Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#374151" text-anchor="start" font-weight="500"><tspan x="130.0" y="462.3">Exponential in (scored K/Q) × (Triboulet copies) × (retriggers). Pareidolia makes every card count as a face,</tspan><tspan x="130.0" y="483.3">so a Flush Five scores five ×4 faces. The canonical screenshot build — per-hand static, so keep leveling the hand.</tspan></text>
+</svg>
